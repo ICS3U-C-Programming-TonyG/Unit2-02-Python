@@ -11,11 +11,11 @@ import math
 
     # User input
 def main():
-    radius = float(input("what is your radius: "))
+    radius = float(input("what is your radius(cm): "))
 
     print("")
     # Calculates circumference
-    circumference = print("Your circumference is: {}".format(radius * constants.TAU))
+    circumference = print("Your circumference is(cm): {}".format(radius * constants.TAU))
 
 
 if __name__ == "__main__":
