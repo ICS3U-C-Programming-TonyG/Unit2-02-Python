@@ -9,12 +9,12 @@
 import constants
 import math
 
-
+    # User input
 def main():
     radius = float(input("what is your radius: "))
 
     print("")
-
+    # Calculates circumference
     circumference = print("Your circumference is: {}".format(radius * constants.TAU))
 
 
